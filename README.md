@@ -22,6 +22,7 @@ Display the result
 
 ## Output Image
 ![image 1](https://raw.githubusercontent.com/sabiduria/Smart-Tooltips/master/img/img1.jpg)
+On mouse you have a smart tooltip :-)
 ![image 2](https://raw.githubusercontent.com/sabiduria/Smart-Tooltips/master/img/img2.jpg)
 
 ## License
