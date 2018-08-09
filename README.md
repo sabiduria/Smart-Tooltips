@@ -19,6 +19,11 @@ Display the result
 ```php
 <?= $engine->render_tooltips()?>
 ```
+
+## Output Image
+![image 1](https://raw.githubusercontent.com/sabiduria/Smart-Tooltips/master/img/img1.jpg)
+![image 2](https://raw.githubusercontent.com/sabiduria/Smart-Tooltips/master/img/img2.jpg)
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
