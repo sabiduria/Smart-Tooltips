@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a3793fd-ed53-47c3-ad8e-d1e8181ff885" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Smart Tooltips.iws" />
@@ -38,8 +39,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="194">
+              <caret line="32" column="52" selection-start-line="28" selection-start-column="20" selection-end-line="32" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -121,6 +122,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smart-Tooltips" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smart-Tooltips" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -133,6 +148,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GIT\Smart-Tooltips\img" />
       <recent name="C:\wamp\www\Smart Tooltips" />
     </key>
   </component>
@@ -186,7 +202,7 @@
       <workItem from="1533801852341" duration="1280000" />
       <workItem from="1533805679856" duration="336000" />
       <workItem from="1533806044244" duration="23000" />
-      <workItem from="1533806137890" duration="607000" />
+      <workItem from="1533806137890" duration="1795000" />
     </task>
     <task id="LOCAL-00001" summary="Implementation of Tooltips Engine">
       <created>1533806460921</created>
@@ -202,17 +218,24 @@
       <option name="project" value="LOCAL" />
       <updated>1533806661933</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Example of usage">
+      <created>1533806794479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533806794479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11115000" />
+    <option name="totallyTimeSpent" value="12303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -245,7 +268,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementation of Tooltips Engine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of Tooltips Engine" />
+    <MESSAGE value="Example of usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example of usage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -304,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="194">
+          <caret line="32" column="52" selection-start-line="28" selection-start-column="20" selection-end-line="32" selection-end-column="52" />
           <folding />
         </state>
       </provider>
