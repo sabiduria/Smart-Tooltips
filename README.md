@@ -1,4 +1,4 @@
-# Smart-Tooltips
+# Smart-Tooltips [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 Smart tooltips is a small utility allowing you to place comments or definitions on certain keywords used on your website, which avoids long texts or speeches
 
 ## Example of usage
