@@ -8,12 +8,15 @@ For using Smart Tooltips, firstly you must call the Engine on the top of your fi
 <?php include_once ('Tooltip-Engine/Engine.php') ?>
 ```
 
-after that
+After that
 ```php
 <?php
   $text = 'We are talking about [{"key":"SI", "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit."}]';
   $engine = new Engine('text', $text);
 ?>
+```
+Display the result
+```php
 <?= $engine->render_tooltips()?>
 ```
 ## License
