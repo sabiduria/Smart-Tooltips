@@ -11,7 +11,7 @@ For using Smart Tooltips, firstly you must call the Engine on the top of your fi
 After that
 ```php
 <?php
-  $text = 'We are talking about [{"key":"SI", "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit."}]';
+  $text = 'We are talking about [{"key":"SI", "text":"System Informatics."}]';
   $engine = new Engine('text', $text);
 ?>
 ```
