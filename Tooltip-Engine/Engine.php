@@ -65,14 +65,17 @@ class Engine
         $end_tooltip   = ']';
         $begin_at_position = strpos($this->getText(), $begin_tooltip);
         $end_at_position = strpos($this->getText(), $end_tooltip);
+        $extracted_text = substr($this->getText(), $begin_at_position, ($end_at_position-$begin_at_position)+1);
+        $json_extracted_text = json_decode($extracted_text, true);
 
-        if ($this->getType()){
-            $extracted_text = substr($this->getText(), $begin_at_position, ($end_at_position-$begin_at_position)+1);
-            $json_extracted_text = json_decode($extracted_text, true);
+        if ($this->getType() == "text"){
             foreach ($json_extracted_text as $key=>$value){
                 $tooltip = '<a class="mytooltip" href="javascript:void(0)">'.$value["key"].'<span class="tooltip-content5"><span class="tooltip-text3"><span class="tooltip-inner2">'.$value["text"].'</span>';
             }
             return str_replace($extracted_text, $tooltip, $this->getText());
+        }
+        elseif ($this->getType() == "image"){
+
         }
         return "";
     }
