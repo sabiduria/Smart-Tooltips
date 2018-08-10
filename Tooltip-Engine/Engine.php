@@ -74,8 +74,11 @@ class Engine
             }
             return str_replace($extracted_text, $tooltip, $this->getText());
         }
-        elseif ($this->getType() == "image"){
-
+        elseif ($this->getType() == "text-image"){
+            foreach ($json_extracted_text as $key=>$value){
+                $tooltip='<span class="mytooltip tooltip-effect-4"><span class="tooltip-item">'.$value["key"].'</span> <span class="tooltip-content clearfix"><img src="'.$value["image"].'" /><span class="tooltip-text">'.$value["text"].'</span> </span></span>';
+            }
+            return str_replace($extracted_text, $tooltip, $this->getText());
         }
         return "";
     }

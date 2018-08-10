@@ -24,13 +24,27 @@
 	<div id="page-wrapper" style="min-height: 562px;">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="white-box">
-					<br>
-					<?php
+				<div class="col-lg-6">
+					<h1>TEXT ONLY</h1>
+					<div class="white-box">
+						<br>
+						<?php
 						$text = 'We are talking about [{"key":"SI", "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit."}]';
 						$engine = new Engine('text', $text);
-					?>
-					<?= $engine->render_tooltips()?>
+						?>
+						<?= $engine->render_tooltips()?>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<h1>TEXT AND IMAGE</h1>
+					<div class="white-box">
+						<br>
+						<?php
+						$text = 'Take a look to our [{"key":"IT Courses", "text":"The following are just some of the many jobs available in the IT industry: Computer Network Architect.", "image":"https://www.training.com.au/wp-content/uploads/career-in-technology-feature.png"}]';
+						$engine = new Engine('text-image', $text);
+						?>
+						<?= $engine->render_tooltips()?>
+					</div>
 				</div>
 			</div>
 		</div>
