@@ -30,6 +30,7 @@ On mouse you have a smart tooltip :-)
 ![image 4](https://raw.githubusercontent.com/sabiduria/Smart-Tooltips/master/img/img4.jpg)
 
 Result with Image
+
 ![image 3](https://raw.githubusercontent.com/sabiduria/Smart-Tooltips/master/img/img3.jpg)
 
 ## License
