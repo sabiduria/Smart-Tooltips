@@ -11,7 +11,7 @@ For using Smart Tooltips, firstly you must call the Engine on the top of your fi
 After that
 ```php
 <?php
-  $text = 'We are talking about [{"key":"SI", "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit."}]';
+  $text = 'We are talking about [{"key":"SI", "text":"System Informatics."}]';
   $engine = new Engine('text', $text);
 ?>
 ```
@@ -22,6 +22,9 @@ Display the result
 
 ## Output Image
 ![image 1](https://raw.githubusercontent.com/sabiduria/Smart-Tooltips/master/img/img1.jpg)
+
+On mouse you have a smart tooltip :-)
+
 ![image 2](https://raw.githubusercontent.com/sabiduria/Smart-Tooltips/master/img/img2.jpg)
 
 ## License
