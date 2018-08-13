@@ -11,8 +11,16 @@ For using Smart Tooltips, firstly you must call the Engine on the top of your fi
 After that
 ```php
 <?php
+  // Only Text
   $text = 'We are talking about [{"key":"SI", "text":"System Informatics."}]';
   $engine = new Engine('text', $text);
+?>
+```
+```php
+<?php
+  // With Image
+	$text = 'Take a look to our [{"key":"IT Courses", "text":"The following are just some of the many jobs available in the IT industry: Computer Network Architect.", "image":"https://www.training.com.au/wp-content/uploads/career-in-technology-feature.png"}]';
+	$engine = new Engine('text-image', $text);
 ?>
 ```
 Display the result
