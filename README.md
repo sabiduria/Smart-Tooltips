@@ -19,8 +19,8 @@ After that
 ```php
 <?php
   // With Image
-	$text = 'Take a look to our [{"key":"IT Courses", "text":"The following are just some of the many jobs available in the IT industry: Computer Network Architect.", "image":"https://www.training.com.au/wp-content/uploads/career-in-technology-feature.png"}]';
-	$engine = new Engine('text-image', $text);
+  $text = 'Take a look to our [{"key":"IT Courses", "text":"The following are just some of the many jobs available in the IT industry: Computer Network Architect.", "image":"https://www.training.com.au/wp-content/uploads/career-in-technology-feature.png"}]';
+  $engine = new Engine('text-image', $text);
 ?>
 ```
 Display the result
