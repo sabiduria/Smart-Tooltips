@@ -11,8 +11,16 @@ For using Smart Tooltips, firstly you must call the Engine on the top of your fi
 After that
 ```php
 <?php
+  // Only Text
   $text = 'We are talking about [{"key":"SI", "text":"System Informatics."}]';
   $engine = new Engine('text', $text);
+?>
+```
+```php
+<?php
+  // With Image
+  $text = 'Take a look to our [{"key":"IT Courses", "text":"The following are just some of the many jobs available in the IT industry: Computer Network Architect.", "image":"https://www.training.com.au/wp-content/uploads/career-in-technology-feature.png"}]';
+  $engine = new Engine('text-image', $text);
 ?>
 ```
 Display the result
@@ -26,6 +34,12 @@ Display the result
 On mouse you have a smart tooltip :-)
 
 ![image 2](https://raw.githubusercontent.com/sabiduria/Smart-Tooltips/master/img/img2.jpg)
+
+![image 4](https://raw.githubusercontent.com/sabiduria/Smart-Tooltips/master/img/img4.jpg)
+
+Result with Image
+
+![image 3](https://raw.githubusercontent.com/sabiduria/Smart-Tooltips/master/img/img3.jpg)
 
 ## License
 
